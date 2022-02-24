@@ -17,7 +17,7 @@ test("I should get all posts", async () => {
 });
 
 test("I should get a single post", async () => {
-  const id = "8b8fabc3-a449-47cc-96e4-070dec7669aa";
+  const id = "c4116fda-7cd5-40c2-bc74-6225420de464";
   const res = await fetch(`${baseUrl}/feedback/${id}`);
   assert(res.ok);
   const data = (await res.json()) as Feedback;

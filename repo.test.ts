@@ -37,7 +37,7 @@ test("Can list all documents", async () => {
 });
 
 test("Can get a single document", async () => {
-  const id = "8b8fabc3-a449-47cc-96e4-070dec7669aa";
+  const id = "c4116fda-7cd5-40c2-bc74-6225420de464";
   const res = await repo.getFeedback(id);
   assertExists(res);
   assertEquals(res?.id, id);
